@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AB01821CD7666400F76013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB01811CD7666400F76013 /* AppDelegate.swift */; };
+		03AB01841CD7666400F76013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB01831CD7666400F76013 /* ViewController.swift */; };
+		03AB01871CD7666400F76013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AB01851CD7666400F76013 /* Main.storyboard */; };
+		03AB01891CD7666400F76013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AB01881CD7666400F76013 /* Assets.xcassets */; };
+		03AB018C1CD7666400F76013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AB018A1CD7666400F76013 /* LaunchScreen.storyboard */; };
+		03AB01971CD7666400F76013 /* twitcialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB01961CD7666400F76013 /* twitcialTests.swift */; };
+		03AB01A21CD7666400F76013 /* twitcialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB01A11CD7666400F76013 /* twitcialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AB01931CD7666400F76013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AB01761CD7666400F76013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AB017D1CD7666400F76013;
+			remoteInfo = twitcial;
+		};
+		03AB019E1CD7666400F76013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AB01761CD7666400F76013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AB017D1CD7666400F76013;
+			remoteInfo = twitcial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AB017E1CD7666400F76013 /* twitcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AB01811CD7666400F76013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03AB01831CD7666400F76013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03AB01861CD7666400F76013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AB01881CD7666400F76013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AB018B1CD7666400F76013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AB018D1CD7666400F76013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AB01921CD7666400F76013 /* twitcialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitcialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AB01961CD7666400F76013 /* twitcialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitcialTests.swift; sourceTree = "<group>"; };
+		03AB01981CD7666400F76013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AB019D1CD7666400F76013 /* twitcialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitcialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AB01A11CD7666400F76013 /* twitcialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitcialUITests.swift; sourceTree = "<group>"; };
+		03AB01A31CD7666400F76013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AB017B1CD7666400F76013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AB018F1CD7666400F76013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AB019A1CD7666400F76013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AB01751CD7666400F76013 = {
+			isa = PBXGroup;
+			children = (
+				03AB01801CD7666400F76013 /* twitcial */,
+				03AB01951CD7666400F76013 /* twitcialTests */,
+				03AB01A01CD7666400F76013 /* twitcialUITests */,
+				03AB017F1CD7666400F76013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03AB017F1CD7666400F76013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AB017E1CD7666400F76013 /* twitcial.app */,
+				03AB01921CD7666400F76013 /* twitcialTests.xctest */,
+				03AB019D1CD7666400F76013 /* twitcialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AB01801CD7666400F76013 /* twitcial */ = {
+			isa = PBXGroup;
+			children = (
+				03AB01811CD7666400F76013 /* AppDelegate.swift */,
+				03AB01831CD7666400F76013 /* ViewController.swift */,
+				03AB01851CD7666400F76013 /* Main.storyboard */,
+				03AB01881CD7666400F76013 /* Assets.xcassets */,
+				03AB018A1CD7666400F76013 /* LaunchScreen.storyboard */,
+				03AB018D1CD7666400F76013 /* Info.plist */,
+			);
+			path = twitcial;
+			sourceTree = "<group>";
+		};
+		03AB01951CD7666400F76013 /* twitcialTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AB01961CD7666400F76013 /* twitcialTests.swift */,
+				03AB01981CD7666400F76013 /* Info.plist */,
+			);
+			path = twitcialTests;
+			sourceTree = "<group>";
+		};
+		03AB01A01CD7666400F76013 /* twitcialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03AB01A11CD7666400F76013 /* twitcialUITests.swift */,
+				03AB01A31CD7666400F76013 /* Info.plist */,
+			);
+			path = twitcialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AB017D1CD7666400F76013 /* twitcial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AB01A61CD7666400F76013 /* Build configuration list for PBXNativeTarget "twitcial" */;
+			buildPhases = (
+				03AB017A1CD7666400F76013 /* Sources */,
+				03AB017B1CD7666400F76013 /* Frameworks */,
+				03AB017C1CD7666400F76013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twitcial;
+			productName = twitcial;
+			productReference = 03AB017E1CD7666400F76013 /* twitcial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03AB01911CD7666400F76013 /* twitcialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AB01A91CD7666400F76013 /* Build configuration list for PBXNativeTarget "twitcialTests" */;
+			buildPhases = (
+				03AB018E1CD7666400F76013 /* Sources */,
+				03AB018F1CD7666400F76013 /* Frameworks */,
+				03AB01901CD7666400F76013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AB01941CD7666400F76013 /* PBXTargetDependency */,
+			);
+			name = twitcialTests;
+			productName = twitcialTests;
+			productReference = 03AB01921CD7666400F76013 /* twitcialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03AB019C1CD7666400F76013 /* twitcialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AB01AC1CD7666400F76013 /* Build configuration list for PBXNativeTarget "twitcialUITests" */;
+			buildPhases = (
+				03AB01991CD7666400F76013 /* Sources */,
+				03AB019A1CD7666400F76013 /* Frameworks */,
+				03AB019B1CD7666400F76013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AB019F1CD7666400F76013 /* PBXTargetDependency */,
+			);
+			name = twitcialUITests;
+			productName = twitcialUITests;
+			productReference = 03AB019D1CD7666400F76013 /* twitcialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AB01761CD7666400F76013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tripathi, Roopesh";
+				TargetAttributes = {
+					03AB017D1CD7666400F76013 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					03AB01911CD7666400F76013 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 03AB017D1CD7666400F76013;
+					};
+					03AB019C1CD7666400F76013 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 03AB017D1CD7666400F76013;
+					};
+				};
+			};
+			buildConfigurationList = 03AB01791CD7666400F76013 /* Build configuration list for PBXProject "twitcial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AB01751CD7666400F76013;
+			productRefGroup = 03AB017F1CD7666400F76013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AB017D1CD7666400F76013 /* twitcial */,
+				03AB01911CD7666400F76013 /* twitcialTests */,
+				03AB019C1CD7666400F76013 /* twitcialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AB017C1CD7666400F76013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AB018C1CD7666400F76013 /* LaunchScreen.storyboard in Resources */,
+				03AB01891CD7666400F76013 /* Assets.xcassets in Resources */,
+				03AB01871CD7666400F76013 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AB01901CD7666400F76013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AB019B1CD7666400F76013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AB017A1CD7666400F76013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AB01841CD7666400F76013 /* ViewController.swift in Sources */,
+				03AB01821CD7666400F76013 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AB018E1CD7666400F76013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AB01971CD7666400F76013 /* twitcialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AB01991CD7666400F76013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AB01A21CD7666400F76013 /* twitcialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AB01941CD7666400F76013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AB017D1CD7666400F76013 /* twitcial */;
+			targetProxy = 03AB01931CD7666400F76013 /* PBXContainerItemProxy */;
+		};
+		03AB019F1CD7666400F76013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AB017D1CD7666400F76013 /* twitcial */;
+			targetProxy = 03AB019E1CD7666400F76013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AB01851CD7666400F76013 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AB01861CD7666400F76013 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03AB018A1CD7666400F76013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AB018B1CD7666400F76013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AB01A41CD7666400F76013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AB01A51CD7666400F76013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AB01A71CD7666400F76013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = twitcial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.twitcial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03AB01A81CD7666400F76013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = twitcial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.twitcial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03AB01AA1CD7666400F76013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = twitcialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.twitcialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twitcial.app/twitcial";
+			};
+			name = Debug;
+		};
+		03AB01AB1CD7666400F76013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = twitcialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.twitcialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twitcial.app/twitcial";
+			};
+			name = Release;
+		};
+		03AB01AD1CD7666400F76013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = twitcialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.twitcialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = twitcial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		03AB01AE1CD7666400F76013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = twitcialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.twitcialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = twitcial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AB01791CD7666400F76013 /* Build configuration list for PBXProject "twitcial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AB01A41CD7666400F76013 /* Debug */,
+				03AB01A51CD7666400F76013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AB01A61CD7666400F76013 /* Build configuration list for PBXNativeTarget "twitcial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AB01A71CD7666400F76013 /* Debug */,
+				03AB01A81CD7666400F76013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03AB01A91CD7666400F76013 /* Build configuration list for PBXNativeTarget "twitcialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AB01AA1CD7666400F76013 /* Debug */,
+				03AB01AB1CD7666400F76013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03AB01AC1CD7666400F76013 /* Build configuration list for PBXNativeTarget "twitcialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AB01AD1CD7666400F76013 /* Debug */,
+				03AB01AE1CD7666400F76013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AB01761CD7666400F76013 /* Project object */;
+}
